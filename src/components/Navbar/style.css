@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: auto;
+    padding-right: auto;
+    flex: 1;
+    margin: auto 2rem;
+}
+
+.logo {
+    /* margin-left: 3rem; */
+    flex: 1;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    
+    
+}
+
+.features {
+    align-self: center;
+}
+
+.right-nav {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    margin-right: 1em;
+}
+
+.gs-con {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.get-started {
+    margin-left: 1em;
+}
+
